@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/XboxGamertagGenerator/static/css/main.36497136.chunk.css",
-    "main.js": "/XboxGamertagGenerator/static/js/main.4562c062.chunk.js",
-    "main.js.map": "/XboxGamertagGenerator/static/js/main.4562c062.chunk.js.map",
+    "main.js": "/XboxGamertagGenerator/static/js/main.4b59795a.chunk.js",
+    "main.js.map": "/XboxGamertagGenerator/static/js/main.4b59795a.chunk.js.map",
     "runtime~main.js": "/XboxGamertagGenerator/static/js/runtime~main.55d6dde1.js",
     "runtime~main.js.map": "/XboxGamertagGenerator/static/js/runtime~main.55d6dde1.js.map",
-    "static/js/2.3310f33a.chunk.js": "/XboxGamertagGenerator/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "/XboxGamertagGenerator/static/js/2.3310f33a.chunk.js.map",
+    "static/js/2.79a14a61.chunk.js": "/XboxGamertagGenerator/static/js/2.79a14a61.chunk.js",
+    "static/js/2.79a14a61.chunk.js.map": "/XboxGamertagGenerator/static/js/2.79a14a61.chunk.js.map",
     "index.html": "/XboxGamertagGenerator/index.html",
-    "precache-manifest.dfee5a247e5c66cfc66ef1292ed3ce5e.js": "/XboxGamertagGenerator/precache-manifest.dfee5a247e5c66cfc66ef1292ed3ce5e.js",
-    "service-worker.js": "/XboxGamertagGenerator/service-worker.js",
-    "static/css/main.36497136.chunk.css.map": "/XboxGamertagGenerator/static/css/main.36497136.chunk.css.map"
+    "precache-manifest.f39962a63204174059ff9757632876bc.js": "/XboxGamertagGenerator/precache-manifest.f39962a63204174059ff9757632876bc.js",
+    "service-worker.js": "/XboxGamertagGenerator/service-worker.js"
   }
 }
