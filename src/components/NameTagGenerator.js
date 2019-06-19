@@ -40,7 +40,7 @@ export default class NameTagGenerator extends React.Component {
         newStr += str[i-1];
       }
 
-      this.setState({gamertag: newStr, input: ""});
+      this.setState({gamertag: newStr});
   }
 
   render() {
