@@ -5,29 +5,53 @@ export default class NameTagGenerator extends React.Component {
 
   constructor() {
     super();
-    this.handleKeyDown = this.handleKeyDown.bind(this);
+    this.handleClick = this.handleClick.bind(this);
+    this.handleChange = this.handleChange.bind(this);
     this.state = {
-      gamertag: ""
+      gamertag: "",
+      input: ""
     };
   }
 
-  handleKeyDown = (e) => {
-    let num = ['69', '420'];
-    let str = e.target.value;
-    let selectedNum = num[Math.round(0 + Math.random() * (1 - 0))];
+  handleChange = (e) => {
+    this.setState({ input: e.target.value });
+  }
 
-    str = "xXx" + str + selectedNum + "xXx";
+  handleClick = (e) => {
+      let num = ['69', '420'];
+      let str = this.state.input;
+      let selectedNum = num[Math.round(0 + Math.random() * (1 - 0))];
 
-    if(e.keyCode == 13){
-      this.setState({gamertag: str});
-    }
+      str = "xxx" + str + selectedNum + "xxx";
+
+      let i = 1;
+      let newStr = "";
+
+      while(i < str.length) {
+        newStr += str[i-1] + str[i].toUpperCase();
+        i += 2;
+      }
+
+      if(i === str.length) {
+        newStr += str[i-1];
+      }
+
+      this.setState({gamertag: newStr, input: ""});
   }
 
   render() {
+    let redo;
+
+    if(this.state.input.length != 0) {
+      redo = <button onClick={this.handleClick} >Make it more Xboxified!</button>;
+    }
     return (
       <div>
-        <input type="text" onKeyDown={this.handleKeyDown} placeholder="Enter Gamertag" type="text"/>
+        <p>Enter a gamertag</p>
+        <input type="text" onKeyDown={this.handleChange} placeholder="Enter Gamertag" type="text"/>
+        <button onClick={this.handleClick} >Xboxify!</button>
         <span>{this.state.gamertag}</span>
+        {redo}
       </div>
     );
   }
