@@ -14,15 +14,19 @@ export default class NameTagGenerator extends React.Component {
   }
 
   handleChange = (e) => {
+    if(this.state.gamertag.length != 0) {
+      this.setState({ gamertag: "" });
+    }
     this.setState({ input: e.target.value });
   }
 
   handleClick = (e) => {
       let num = ['69', '420'];
-      let str = this.state.input;
+      let str = this.state.gamertag.length === 0 ? this.state.input : this.state.gamertag;
+      str = str.toLowerCase();
       let selectedNum = num[Math.round(0 + Math.random() * (1 - 0))];
 
-      str = "xxx" + str + selectedNum + "xxx";
+      str = "xxx" + selectedNum + str + selectedNum + "xxx";
 
       let i = 1;
       let newStr = "";
