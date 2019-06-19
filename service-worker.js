@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/XboxGamertagGenerator/precache-manifest.61181b830aaedf3cbb30a03e7dde68bc.js"
+  "/XboxGamertagGenerator/precache-manifest.aeaae2f3a1e3a829f3b5f6062c7e0404.js"
 );
 
 self.addEventListener('message', (event) => {
