@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "835f51186b119200eb1721ccd9bdf601",
+    "revision": "f4831634ae6e25e6a800918798256e64",
     "url": "/XboxGamertagGenerator/index.html"
   },
   {
-    "revision": "5833a85d7dbf3afe4842",
-    "url": "/XboxGamertagGenerator/static/css/main.bc1bc69f.chunk.css"
+    "revision": "99f8b733f53d64dd37fd",
+    "url": "/XboxGamertagGenerator/static/css/main.6454257f.chunk.css"
   },
   {
     "revision": "1237d0ee2bf461e3b23b",
     "url": "/XboxGamertagGenerator/static/js/2.fcaa713e.chunk.js"
   },
   {
-    "revision": "5833a85d7dbf3afe4842",
+    "revision": "99f8b733f53d64dd37fd",
     "url": "/XboxGamertagGenerator/static/js/main.4b68037f.chunk.js"
   },
   {
