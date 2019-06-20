@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './NameTagGenerator.css';
 
 export default class NameTagGenerator extends React.Component {
 
@@ -47,13 +48,13 @@ export default class NameTagGenerator extends React.Component {
     let redo;
 
     if(this.state.gamertag.length != 0) {
-      redo = <button onClick={this.handleClick} >Make it more Xboxified!</button>;
+      redo = <button onClick={this.handleClick} className="xboxifyAgain">Make it more Xboxified!</button>;
     }
     return (
-      <div>
-        <input type="text" onChange={this.handleChange} placeholder="Enter Gamertag" type="text"/>
-        <button id="1" onClick={this.handleClick} >Xboxify!</button>
-        <span>{this.state.gamertag}</span>
+      <div className="containerDiv">
+        <input type="text" onChange={this.handleChange} placeholder="Enter Gamertag" type="text" className="inputBox"/><br />
+        <span className="gamertag">{this.state.gamertag}</span><br />
+        <button id="1" onClick={this.handleClick} className="xboxify" >Xboxify!</button>
         {redo}
       </div>
     );
