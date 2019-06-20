@@ -48,7 +48,7 @@ export default class NameTagGenerator extends React.Component {
     let redo;
 
     if(this.state.gamertag.length != 0) {
-      redo = <button onClick={this.handleClick} className="xboxifyAgain">Make it more Xboxified!</button>;
+      redo = <button onClick={this.handleClick} className="xboxify">Make it more Xboxified!</button>;
     }
     return (
       <div className="containerDiv">
