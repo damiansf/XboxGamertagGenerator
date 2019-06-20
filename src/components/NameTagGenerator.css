@@ -1,0 +1,21 @@
+.containerDiv{
+  text-align: center;
+}
+
+.xboxifyAgain{
+  padding: 0.5rem;
+}
+
+.inputBox{
+  padding-bottom: 2rem;
+}
+
+.xboxify{
+  padding: 0.5rem;
+}
+
+.gamertag{
+  margin-top: 1rem;
+  display: block;
+  font-size: 2rem;
+}
