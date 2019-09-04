@@ -1,5 +1,6 @@
 # XboxGamertagGenerator
 Fun web app that "Xboxify's" a string to make a gamertag
+https://damiansf.github.io/XboxGamertagGenerator/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
